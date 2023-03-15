@@ -57,22 +57,22 @@ delay_random=0.012      // Set max random sample delay time in ms (humanize)
 //------------------------------------------------------------------------------
 //  CC IDs for CONTROLS
 
-#define $KIK_01_LEVEL 20
-#define $KIK_02_LEVEL 21
-#define $TOM_01_LEVEL 22
-#define $TOM_02_LEVEL 23
-#define $SNR_01_LEVEL 24
-#define $SNR_02_LEVEL 25
-#define $ALT_01_LEVEL 26
-#define $ALT_02_LEVEL 27
-#define $HAT_01_LEVEL 28
-#define $HAT_02_LEVEL 29
-#define $HAT_03_LEVEL 30
-#define $HAT_04_LEVEL 31
-#define $CYM_01_LEVEL 32
-#define $CYM_02_LEVEL 33
-#define $PRC_01_LEVEL 34
-#define $PRC_02_LEVEL 35
+#define $KIK_01_LEVEL 14
+#define $KIK_02_LEVEL 15
+#define $TOM_01_LEVEL 20
+#define $TOM_02_LEVEL 21
+#define $SNR_01_LEVEL 22
+#define $SNR_02_LEVEL 23
+#define $ALT_01_LEVEL 24
+#define $ALT_02_LEVEL 25
+#define $HAT_01_LEVEL 26
+#define $HAT_02_LEVEL 27
+#define $HAT_03_LEVEL 28
+#define $HAT_04_LEVEL 29
+#define $CYM_01_LEVEL 30
+#define $CYM_02_LEVEL 31
+#define $PRC_01_LEVEL 85
+#define $PRC_02_LEVEL 86
 
 //------------------------------------------------------------------------------
 //  INCLUDES
