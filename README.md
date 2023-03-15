@@ -22,7 +22,7 @@ The **808 Tape Kit** is a virtual drum kit instrument in the open-standard [SFZ 
 
 ## Compatibility
 
-The **808 Tape Kit** is designed for use with all SFZ-compliant sample players and audio plug-ins.
+The **808 Tape Kit** is designed for use with SFZ-compliant sample players and audio plug-ins.
 
 ## Installation
 
@@ -56,7 +56,7 @@ The **808 Tape Kit** provides controls for:
 
 ### Continuous Controllers
 
-Controls are linked to MIDI CCs for automation in DAWs, linking to hardware MIDI controllers, live performance, etc. See the *MIDI Reference* section below for a complete list of CC IDs and their assignments.
+Controls are assigned to MIDI CCs for automation in DAWs, linking to hardware MIDI controllers, live performance, etc. See the [Continuous Controller IDs](#continuous-controller-ids) section below for a complete list of CC IDs and their assignments.
 
 ## Customization
 
@@ -66,29 +66,29 @@ TBD
 
 ### Key Note Mapping
 
-  - 35 - Kick (K1)
-  - 36 - Kick (K2)
-  - 41 - Low Tom (T1)
-  - 43 - High Tom (T2)
+  - 35 - Kick (SUB) -- B2
+  - 36 - Kick -- C1
+  - 41 - Low Tom -- F1
+  - 43 - High Tom -- G1
 
-  - 38 - Snare (S1)
-  - 40 - Snare (S2)
-  - 37 - Rim (A1)
-  - 39 - Clap (A2)
+  - 38 - Snare -- D1
+  - 40 - Snare (ALT) -- E1
+  - 37 - Rim -- C#1
+  - 39 - Clap -- D#1
 
-  - 42 - Closed Hat (H1)
-  - 44 - Closed Hat ALT (H2)
-  - 45 - Mi(V) d Hat (H3)
-  - 47 - Open Hat (H4)     
+  - 42 - Closed Hat -- F#1
+  - 44 - Closed Hat (ALT) -- G#1
+  - 45 - Mid Hat -- A1
+  - 47 - Open Hat -- B1
 
-  - 48 - Crash (C1)
-  - 50 - Crash (C2)
-  - 46 - Clave (P1)
-  - 49 - Maracas (P2)
+  - 48 - Crash -- C2
+  - 50 - Crash (ALT) -- D2
+  - 46 - Clave -- A#1
+  - 49 - Maracas (FX) -- C#2
 
 ### Continuous Controller IDs
 
-  - 35 - (V) Kick-SUB
+  - 35 - (V) Kick (SUB)
   - 36 - (V) Kick
   - 41 - (V) Low Tom
   - 43 - (V) High Tom
@@ -101,6 +101,7 @@ TBD
   - 42 - (V) Closed Hat
   - 44 - (V) Closed Hat (ALT)
   - 45 - (V) Mid Hat
+  - 45 - (T) Mid Hat - Tight
   - 47 - (V) Open Hat     
 
   - 48 - (V) Crash
@@ -110,22 +111,20 @@ TBD
 
 ## Getting Help
 
-If you have any questions, concerns, bug reports, etc., please file an issue in this repository's Issue Tracker.
+If you have any questions, concerns, bug reports, etc., please file an issue in this repository's *Issue Tracker*.
 
 ## Getting Involved
 
-[Contribute](CONTRIBUTING.md) to this project with constructive feedback and feature requests.
+[Contribute](CONTRIBUTING.md) to the **808 Tape Kit (SFZ)** with your constructive feedback and feature requests.
 
 
 ----
+
 
 ### Open Source Licensing Info
 
 1. [TERMS](TERMS.md)
 2. [LICENSE](LICENSE)
-
-
-----
 
 ### Credits
 
