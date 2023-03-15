@@ -89,28 +89,29 @@ Default MIDI Key Note Mapping for the **808 Tape Kit**:
 
 ### Continuous Controller IDs
 
-Default CC assignments for the **808 Tape Kit**:
+The (T) Tight control for the Mid Hat is assigned to the MIDI default for *Foot Pedals*. The default CC assignments for all (V) Volume controls correspond to *Undefined* channels in the MIDI specification to minimize potential comflicts within your MIDI setup.
 
-  - 35 - (V) Kick (SUB)
-  - 36 - (V) Kick
-  - 41 - (V) Low Tom
-  - 43 - (V) High Tom
+  - 04 - (T) Mid Hat - Tight
+  
+  - 14 - (V) Kick (SUB)
+  - 15 - (V) Kick
+  - 20 - (V) Low Tom
+  - 21 - (V) High Tom
 
-  - 38 - (V) Snare
-  - 40 - (V) Snare-ALT
-  - 37 - (V) Rim
-  - 39 - (V) Clap
+  - 22 - (V) Snare
+  - 23 - (V) Snare (ALT)
+  - 24 - (V) Rim
+  - 25 - (V) Clap
 
-  - 42 - (V) Closed Hat
-  - 44 - (V) Closed Hat (ALT)
-  - 45 - (V) Mid Hat
-  - 45 - (T) Mid Hat - Tight
-  - 47 - (V) Open Hat     
+  - 26 - (V) Closed Hat
+  - 27 - (V) Closed Hat (ALT)
+  - 28 - (V) Mid Hat
+  - 29 - (V) Open Hat     
 
-  - 48 - (V) Crash
-  - 50 - (V) Crash (ALT)
-  - 46 - (V) Clave
-  - 49 - (V) Maracas (FX)
+  - 30 - (V) Crash
+  - 31 - (V) Crash (ALT)
+  - 85 - (V) Clave
+  - 86 - (V) Maracas (FX)
 
 ## Getting Help
 
