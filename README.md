@@ -37,46 +37,45 @@ The **808 Tape Kit** is designed for use with all SFZ-compliant sample players a
 
 ## Installation
 
-1.  Download the free "808 Tape" sample library from Wave Alchemy:
+1.  Download the free **808 Tape** sample library from *Wave Alchemy*:
 
     https://www.wavealchemy.co.uk/product/808-tape/
 
-2.  Open the 'genAudio_808TapeKit' folder and populate the empty 'samples' folder with the sample files located in the 'wa_808_tape' folder from Wave Alchemy.
+2.  Open the 'genAudio_808TapeKit' folder and populate the empty 'Samples' folder with the sample files located in the 'wa_808_tape' folder from *Wave Alchemy*.
 
-3.  Load the instrument file 'genAudio_808TapeKit.sfz' into your SFZ plug-in or stand-alone player.
+3.  Load the instrument file 'genAudio_808TK.sfz' into your SFZ plug-in or stand-alone player.
 
 # MIDI KEY NOTE MAPPING
 
-35 - Kick (K1)
-36 - Kick (K2)
-41 - Low Tom (T1)
-43 - High Tom (T2)
+KEY MIDI  PAD
+  - 35 - Kick (K1)
+  - 36 - Kick (K2)
+  - 41 - Low Tom (T1)
+  - 43 - High Tom (T2)
 
-38 - Snare (S1)
-40 - Snare (S2)
-37 - Rim (A1)
-39 - Clap (A2)
+  - 38 - Snare (S1)
+  - 40 - Snare (S2)
+  - 37 - Rim (A1)
+  - 39 - Clap (A2)
 
-42 - Closed Hat (H1)
-44 - Closed Hat ALT (H2)
-45 - Mid Hat (H3)
-47 - Open Hat (H4)     
+  - 42 - Closed Hat (H1)
+  - 44 - Closed Hat ALT (H2)
+  - 45 - Mid Hat (H3)
+  - 47 - Open Hat (H4)     
 
-48 - Crash (C1)
+  - 48 - Crash (C1)
+  - 50 - Crash (C2)
 
-$CYM_01_KEY 48  // CYMBALS
-$CYM_02_KEY 50
-$PRC_01_KEY 46  // PERCUSSION
-$PRC_02_KEY 49
+  - 46 - Clave (P1)
+  - 49 - Maracas (P2)
 
 # Continuous Controllers (CCs)
 
+TBD
+
 # Velocity Layers
 
-  - **Technology stack**: Indicate the technological nature of the software, including primary programming language(s) and whether the software is intended as standalone or as a module in a framework or other ecosystem.
-  - **Status**:  Alpha, Beta, 1.1, etc. It's OK to write a sentence, too. The goal is to let interested people know where this project is at. This is also a good place to link to the [CHANGELOG](CHANGELOG.md).
-  - **Links to production or demo instances**
-  - Describe what sets this apart from related-projects. Linking to another doc or page is OK if this can't be expressed in a sentence or two.
+TBD
 
 ## Customization
 
