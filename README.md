@@ -3,21 +3,20 @@
 The **808 Tape Kit** is a virtual drum kit instrument in the open-standard [SFZ file format](https://sfzformat.com/) that utilizes the free [**808 Tape**](https://www.wavealchemy.co.uk/product/808-tape/) sample library from [*Wave Alchemy*](https://www.wavealchemy.co.uk/).
 
 
-1.  808 Tape Kit Overview
-2.  Compatibility
-3.  Installation
-4.  808 Tape Kit Overview
-5.  Controls
+1.  Compatibility
+2.  Installation
+3.  808 Tape Kit Overview
+4.  Controls
     - Continuous Controllers
-6.  Customization
-7.  MIDI Reference
+5.  Customization
+6.  MIDI Reference
     - Key Note Mapping
     - CC IDs
-8.  Getting Help
-9.  Getting Involved
-10.  Open Source Licensing Info
-11.  Credits
-12.  References
+7.  Getting Help
+8.  Getting Involved
+9.  Open Source Licensing Info
+10.  Credits
+11.  References
 
 
 ## Compatibility
@@ -66,6 +65,8 @@ TBD
 
 ### Key Note Mapping
 
+Default MIDI Key Note Mapping for the **808 Tape Kit**:
+
   - 35 - Kick (SUB) -- B2
   - 36 - Kick -- C1
   - 41 - Low Tom -- F1
@@ -87,6 +88,8 @@ TBD
   - 49 - Maracas (FX) -- C#2
 
 ### Continuous Controller IDs
+
+Default CC assignments for the **808 Tape Kit**:
 
   - 35 - (V) Kick (SUB)
   - 36 - (V) Kick
@@ -115,7 +118,7 @@ If you have any questions, concerns, bug reports, etc., please file an issue in 
 
 ## Getting Involved
 
-[Contribute](CONTRIBUTING.md) to the **808 Tape Kit (SFZ)** with your constructive feedback and feature requests.
+[Contribute](CONTRIBUTING.md) to the **808 Tape Kit (SFZ)** and the *genAudio Project* with your constructive feedback and feature requests.
 
 
 ----
