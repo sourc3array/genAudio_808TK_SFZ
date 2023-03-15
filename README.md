@@ -6,10 +6,13 @@ The **808 Tape Kit** is a virtual drum kit instrument in the open-standard [SFZ 
 1.  808 Tape Kit Overview
 2.  Compatibility
 3.  Installation
-4.  MIDI Key Note Mapping
-5.  Continuous Controllers
-6.  Velocity Layers
-7.  Customization
+4.  808 Tape Kit Overview
+5.  Controls
+    - Continuous Controllers
+6.  Customization
+7.  MIDI Reference
+    - Key Note Mapping
+    - CC IDs
 8.  Getting Help
 9.  Getting Involved
 10.  Open Source Licensing Info
@@ -17,7 +20,21 @@ The **808 Tape Kit** is a virtual drum kit instrument in the open-standard [SFZ 
 12.  References
 
 
-# 808 Tape Kit Overview
+## Compatibility
+
+The **808 Tape Kit** is designed for use with all SFZ-compliant sample players and audio plug-ins.
+
+## Installation
+
+1.  Download the free **808 Tape** sample library from *Wave Alchemy*:
+
+    https://www.wavealchemy.co.uk/product/808-tape/
+
+2.  Open the 'genAudio_808TapeKit' folder and populate the empty 'Samples' folder with the sample files located in the 'wa_808_tape' folder from *Wave Alchemy*.
+
+3.  Load the instrument file 'genAudio_808TK.sfz' into your SFZ plug-in or stand-alone player.
+
+## 808 Tape Kit Overview
 
 The **808 Tape Kit** features sixteen (16) individual sound pads optimized for use with 4x4 MIDI pad controller layouts and finger drumming:
 
@@ -30,27 +47,25 @@ The **808 Tape Kit** features sixteen (16) individual sound pads optimized for u
 All pads feature a Master Volume (V) control. 
 All cymbals implement muting for enhanced realism and playability.
 
-# Compatibility
+## Controls
 
-The **808 Tape Kit** is designed for use with all SFZ-compliant sample players and audio plug-ins.
+The **808 Tape Kit** provides controls for:
 
-# Installation
+  - (V) **Volume**: Sets the volume for each individual pad
+  - (T) **Tight**: Varies the openness of the Mid Hat
 
-1.  Download the free **808 Tape** sample library from *Wave Alchemy*:
+### Continuous Controllers
 
-    https://www.wavealchemy.co.uk/product/808-tape/
+Controls are linked to MIDI CCs for automation in DAWs, linking to hardware MIDI controllers, live performance, etc. See the *MIDI Reference* section below for a complete list of CC IDs and their assignments.
 
-2.  Open the 'genAudio_808TapeKit' folder and populate the empty 'Samples' folder with the sample files located in the 'wa_808_tape' folder from *Wave Alchemy*.
+## Customization
 
-3.  Load the instrument file 'genAudio_808TK.sfz' into your SFZ plug-in or stand-alone player.
+TBD
 
-# CONTROLS
+## MIDI Reference
 
-Use the *Controls* interface of your SFZ plug-in or stand-alone player to adjust the he Volume (V) for each individual pad is Hi-hats feature an additional Tight control (T) that varies the openness of the Mid Hat.
+### Key Note Mapping
 
-# MIDI KEY NOTE MAPPING
-
-KEY MIDI  PAD
   - 35 - Kick (K1)
   - 36 - Kick (K2)
   - 41 - Low Tom (T1)
@@ -63,44 +78,48 @@ KEY MIDI  PAD
 
   - 42 - Closed Hat (H1)
   - 44 - Closed Hat ALT (H2)
-  - 45 - Mid Hat (H3)
+  - 45 - Mi(V) d Hat (H3)
   - 47 - Open Hat (H4)     
 
   - 48 - Crash (C1)
   - 50 - Crash (C2)
-
   - 46 - Clave (P1)
   - 49 - Maracas (P2)
 
-# Continuous Controllers
+### Continuous Controller IDs
 
-The **808 Tape Kit** provides CCs for the following controls:
+  - 35 - (V) Kick-SUB
+  - 36 - (V) Kick
+  - 41 - (V) Low Tom
+  - 43 - (V) High Tom
 
-  - (V) Volume for each individual pad
-  - (T) Tight control on the the Mid Hat
+  - 38 - (V) Snare
+  - 40 - (V) Snare-ALT
+  - 37 - (V) Rim
+  - 39 - (V) Clap
 
-You can use these CCs for automation in DAWs, linking to hardware MIDI controllers, live performance, etc. 
+  - 42 - (V) Closed Hat
+  - 44 - (V) Closed Hat (ALT)
+  - 45 - (V) Mid Hat
+  - 47 - (V) Open Hat     
 
-# Velocity Layers
+  - 48 - (V) Crash
+  - 50 - (V) Crash (ALT)
+  - 46 - (V) Clave
+  - 49 - (V) Maracas (FX)
 
-TBD
-
-## Customization
-
-TBD
-
-# Getting Help
+## Getting Help
 
 If you have any questions, concerns, bug reports, etc., please file an issue in this repository's Issue Tracker.
 
-# Getting Involved
+## Getting Involved
 
-[CONTRIBUTE](CONTRIBUTING.md) to this project with constructive feedback and feature requests.
+[Contribute](CONTRIBUTING.md) to this project with constructive feedback and feature requests.
 
 
 ----
 
-# Open Source Licensing Info
+### Open Source Licensing Info
 
 1. [TERMS](TERMS.md)
 2. [LICENSE](LICENSE)
@@ -108,11 +127,11 @@ If you have any questions, concerns, bug reports, etc., please file an issue in 
 
 ----
 
-# Credits
+### Credits
 
 1. SFZ programming and sound design by [SOURC3ARRAY](https://soundcloud.com/sourc3array).
 
-# References
+### References
 
 1. [808 Tape](https://www.wavealchemy.co.uk/product/808-tape/) is a free collection of TR-808 drum machine samples recorded directly to 1/4″ analogue tape.
 2. [sforzando](https://www.plogue.com/products/sforzando.html) is a free, SFZ 2.0 compliant sample player.
