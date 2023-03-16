@@ -10,13 +10,13 @@
 
 default_path=Samples/
 
-set_cc$CYM_01_LEVEL=117
+set_cc$CYM_01_LEVEL=117         // Set Dial: 92%
 set_cc$CYM_02_LEVEL=117
 set_cc$PRC_01_LEVEL=117
 set_cc$PRC_02_LEVEL=117
 
 label_cc$CYM_01_LEVEL=(V) CRASH
-label_cc$CYM_02_LEVEL=(V) ALT CRASH
+label_cc$CYM_02_LEVEL=(V) CRASH (ALT)
 label_cc$PRC_01_LEVEL=(V) CLAVE
 label_cc$PRC_02_LEVEL=(V) MARACAS
 
@@ -31,7 +31,7 @@ off_mode=normal                 // Override default
 polyphony=7                     // Limit cymbal wash: 7 hits
 
 amplitude_oncc$CYM_01_LEVEL=96  // Amplitude: 96%
-pan=-30                         // Panning: 30% (L)
+pan=30                          // Panning: (R) 30% 
 
 <region>           hivel=63  amp_velcurve_1=0.10 sample=wa_808tape_crash_04_clean.wav ampeg_release=3.837 // 3901ms - ADS
 <region> lovel=64  hivel=103 amp_velcurve_1=0.05 sample=wa_808tape_crash_04_sat.wav   ampeg_release=3.837 // 3901ms
@@ -48,7 +48,7 @@ off_mode=normal                 // Override default
 polyphony=5                     // Limit cymbal wash: 5 hits
 
 amplitude_oncc$CYM_02_LEVEL=88  // Amplitude: 88%
-pan=-36                         // Panning: 36% (L)
+pan=36                          // Panning: (R) 36% 
  
 <region>           hivel=63  amp_velcurve_1=0.10 sample=wa_808tape_crash_01_clean.wav ampeg_release_shape=5  ampeg_release=1.395 // 1459ms - ADS
 <region> lovel=64  hivel=103 amp_velcurve_1=0.05 sample=wa_808tape_crash_01_sat.wav   ampeg_release_shape=0  ampeg_release=1.387 // 1451ms
@@ -62,7 +62,7 @@ pan=-36                         // Panning: 36% (L)
 key=$PRC_01_KEY
 
 amplitude_oncc$PRC_01_LEVEL=88  // Amplitude: 88%
-pan=30                          // Panning: (R) 30%
+pan=-30                         // Panning: 30% (L)
 
 <region>           hivel=63  amp_velcurve_1=0.10 sample=wa_808tape_clave_02_clean.wav
 <region> lovel=64  hivel=103 amp_velcurve_1=0.05 sample=wa_808tape_clave_02_sat.wav
@@ -76,11 +76,11 @@ pan=30                          // Panning: (R) 30%
 key=$PRC_02_KEY
 
 amplitude_oncc$PRC_02_LEVEL=96  // Amplitude: 96%
-pan=36                          // Panning: (R) 36%
+pan=-36                         // Panning: 36% (L) 
 
 <region>           hivel=63  amp_velcurve_1=0.10 sample=wa_808tape_maracas_04_clean.wav
 <region> lovel=64  hivel=103 amp_velcurve_1=0.05 sample=wa_808tape_maracas_04_sat.wav
 <region> lovel=104           amp_velcurve_1=0.00 sample=wa_808tape_maracas_04_sat2.wav
 
-<region>           hivel=82  amp_velcurve_3=0.10 sample=wa_808tape_clave_02_sat.wav  amplitude=18 eg01_pitch=-1200 pan=-30 ampeg_attack=0.018
-<region> lovel=83            amp_velcurve_1=0.05 sample=wa_808tape_clave_02_sat2.wav amplitude=20 eg01_pitch=-1200 pan=-24 ampeg_attack=0.018
+<region>           hivel=82  amp_velcurve_3=0.10 sample=wa_808tape_clave_02_sat.wav  amplitude=18 eg01_pitch=-1200 pan=-24 ampeg_attack=0.018
+<region> lovel=83            amp_velcurve_1=0.05 sample=wa_808tape_clave_02_sat2.wav amplitude=20 eg01_pitch=-1200 pan=-18 ampeg_attack=0.018
