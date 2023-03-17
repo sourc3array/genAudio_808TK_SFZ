@@ -1,11 +1,11 @@
-# genAudio - 808 Tape Kit (SFZ)
+# genAudio - 808TK (SFZ)
 
-The **808 Tape Kit** is a virtual drum kit instrument in the open-standard [SFZ file format](https://sfzformat.com/) that utilizes the free [**808 Tape**](https://www.wavealchemy.co.uk/product/808-tape/) sample library from [*Wave Alchemy*](https://www.wavealchemy.co.uk/).
+The **808TK** is a virtual drum kit instrument in the open-standard [SFZ file format](https://sfzformat.com/) that utilizes the free [**808 Tape**](https://www.wavealchemy.co.uk/product/808-tape/) sample library from [*Wave Alchemy*](https://www.wavealchemy.co.uk/).
 
 
 1.  Compatibility
 2.  Installation
-3.  808 Tape Kit Overview
+3.  808TK Overview
 4.  Controls
     - Continuous Controllers
 5.  Customization
@@ -21,7 +21,7 @@ The **808 Tape Kit** is a virtual drum kit instrument in the open-standard [SFZ 
 
 ## Compatibility
 
-The **808 Tape Kit** is designed for use with SFZ-compliant sample players and audio plug-ins.
+The **808TK** is designed for use with SFZ-compliant sample players and audio plug-ins.
 
 ## Installation
 
@@ -33,9 +33,9 @@ The **808 Tape Kit** is designed for use with SFZ-compliant sample players and a
 
 3.  Load the instrument file 'genAudio_808TK.sfz' into your SFZ plug-in or stand-alone player.
 
-## 808 Tape Kit Overview
+## 808TK Overview
 
-The **808 Tape Kit** features sixteen (16) individual sound pads optimized for use with 4x4 MIDI pad controller layouts and finger drumming:
+The **808TK** features sixteen (16) individual sound pads optimized for use with 4x4 drum pad controllers and finger drumming:
 
   - **DRUMS**: Kick (Sub), Kick, Low Tom and High Tom
   - **SNARES**: Snare, Snare (Alt), Rim and Clap
@@ -48,7 +48,7 @@ All cymbals implement muting for enhanced realism and playability.
 
 ## Controls
 
-The **808 Tape Kit** provides controls for:
+The **808TK** provides controls for:
 
   - (V) **Volume**: Sets the volume for each individual pad
   - (T) **Tight**: Varies the openness of the Mid Hat
@@ -65,7 +65,7 @@ TBD
 
 ### Key Note Mapping
 
-Default MIDI Key Note Mapping for the **808 Tape Kit**:
+Default MIDI numbers and note names for the **808TK**:
 
   - 35 - Kick (SUB) -- B2
   - 36 - Kick -- C1
@@ -89,9 +89,11 @@ Default MIDI Key Note Mapping for the **808 Tape Kit**:
 
 ### Continuous Controller IDs
 
-The (T) Tight control for the Mid Hat is assigned to the MIDI default for *Foot Pedals*. The default CC assignments for all (V) Volume controls correspond to *Undefined* channels in the MIDI specification to minimize potential comflicts within your MIDI setup.
+The (T) Tight control for the Mid Hat is assigned to the MIDI default for *Foot Pedals*.
 
-  - 04 - (T) Mid Hat - Tight
+The default CC assignments for all (V) Volume controls correspond to *Undefined* channels in the MIDI specification to minimize potential comflicts in typical MIDI setups.
+
+  - 04 - (T) Tight
   
   - 14 - (V) Kick (SUB)
   - 15 - (V) Kick
