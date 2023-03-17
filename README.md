@@ -7,7 +7,7 @@ The **808TK** is a virtual drum kit instrument in the open-standard [SFZ file fo
 2.  Installation
 3.  808TK Overview
 4.  Controls
-    - Continuous Controllers
+    - Continuous Controllers (CCs)
 5.  Customization
 6.  MIDI Reference
     - Key Note Mapping
@@ -21,7 +21,7 @@ The **808TK** is a virtual drum kit instrument in the open-standard [SFZ file fo
 
 ## Compatibility
 
-The **808TK** is designed for use with SFZ-compliant sample players and audio plug-ins.
+The **808TK** is designed for use with SFZ sample players and audio plug-ins.
 
 ## Installation
 
@@ -29,13 +29,13 @@ The **808TK** is designed for use with SFZ-compliant sample players and audio pl
 
     https://www.wavealchemy.co.uk/product/808-tape/
 
-2.  Open the 'genAudio_808TapeKit' folder and populate the empty 'Samples' folder with the sample files located in the 'wa_808_tape' folder from *Wave Alchemy*.
+2.  Open the 'genAudio_808TK_SFZ' folder and populate the empty 'Samples' folder with the sample files located in the 'wa_808_tape' folder from *Wave Alchemy*.
 
 3.  Load the instrument file 'genAudio_808TK.sfz' into your SFZ plug-in or stand-alone player.
 
 ## 808TK Overview
 
-The **808TK** features sixteen (16) individual sound pads optimized for use with 4x4 drum pad controllers and finger drumming:
+The **808TK** features fifty-three (53) 24-bit drum samples layered over sixteen (16) individual sound pads. The sound bank has been curated for optimal use with 4x4 drum pad controllers and finger drumming:
 
   - **DRUMS**: Kick (Sub), Kick, Low Tom and High Tom
   - **SNARES**: Snare, Snare (Alt), Rim and Clap
@@ -43,8 +43,7 @@ The **808TK** features sixteen (16) individual sound pads optimized for use with
   - **CYMBALS**: Crash and Crash (Alt)
   - **PERCUSSION**: Clave and Maracas (FX)
 
-All pads feature a Master Volume (V) control. 
-All cymbals implement muting for enhanced realism and playability.
+Each drum pad contains multiple velocity layers to provide clean, saturated and driven variations for each sound. The velocity ranges follow a non-linear progression, pushing the drive articulations into the upper velocity range. This gives the drum kit a *sweet spot* at higher volumes that plays like the power band of an internal combustion engine. Several pads feature additional sample layers and sound design nuances, giving the **808TK** its unique sonic texture. All pads feature an independent Volume control, with an additional Tight control for the hi-hats. Muting has been implemented for each cymbal for enhanced realism and playability.
 
 ## Controls
 
