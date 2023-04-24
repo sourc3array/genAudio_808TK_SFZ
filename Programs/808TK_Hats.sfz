@@ -1,9 +1,11 @@
 //------------------------------------------------------------------------------
-//  genAudio :: SFZ Construction Kit
-//              Wave Alchemy :: 808 Tape
-//                              Hi-HATS :: V1.00
-//------------------------------------------------------------------------------
-//  SFZ coding by SOURC3ARRAY                 https://soundcloud.com/sourc3array
+//  Instrument: 808TK (SFZ)
+//  File: Hi-Hats | Version: 1.0.0
+//  Designer: Jason Krueger (sourc3array)
+//  License: GNU GPL v3.0
+//  GitHub: https://github.com/sourc3array/Bare_Bones_XS
+//
+//  Visit GEN Audio at https://genaudio.biz
 //------------------------------------------------------------------------------
 
 <control>

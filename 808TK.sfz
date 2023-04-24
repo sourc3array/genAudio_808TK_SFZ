@@ -1,6 +1,6 @@
 //------------------------------------------------------------------------------
 //  Instrument: 808TK (SFZ)
-//  Preset: 808TK | Version: 1.0.0-Alpha.1
+//  File: 808TK | Version: 1.0.0
 //  Designer: Jason Krueger (sourc3array)
 //  License: GNU GPL v3.0
 //  GitHub: https://github.com/sourc3array/Bare_Bones_XS
@@ -79,7 +79,7 @@ delay_random=0.012      // Set max random sample delay time in ms (humanize)
 //------------------------------------------------------------------------------
 //  INCLUDES
 
-#include "Programs/gA_808TK_Drums.sfz"
-#include "Programs/gA_808TK_Snares.sfz"
-#include "Programs/gA_808TK_Hats.sfz"
-#include "Programs/gA_808TK_CymPerc.sfz"
+#include "Programs/808TK_Drums.sfz"
+#include "Programs/808TK_Snares.sfz"
+#include "Programs/808TK_Hats.sfz"
+#include "Programs/808TK_CymPerc.sfz"
