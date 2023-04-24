@@ -1,4 +1,4 @@
-# genAudio - 808TK (SFZ)
+# 808TK (SFZ)
 
 The **808TK** is a virtual drum kit instrument in the open-standard [SFZ file format](https://sfzformat.com/) that utilizes the free [**808 Tape**](https://www.wavealchemy.co.uk/product/808-tape/) sample library from [*Wave Alchemy*](https://www.wavealchemy.co.uk/).
 
